@@ -24,7 +24,7 @@ import { RevealWrapper } from 'next-reveal'
 
 const ContactForm = () => {
   const toast = useToast();
-  const options = ["Web Development", "Hiring", "Freelance", "Other"];
+  //const options = ["Web Development", "Hiring", "Freelance", "Other"];
   const [interestedIn, setInterestedIn] = useState("Web Development");
   const { getRootProps, getRadioProps } = useRadioGroup({
     name: "interested",
@@ -90,19 +90,6 @@ const ContactForm = () => {
     <RevealWrapper className="load-hidden" delay={600}>
       <Card className="contact-form-card" borderRadius="2rem" backgroundColor="white" padding="10px 15px">
         <CardBody>
-          <Heading size="md" color="black" my={3}>
-            I&apos;m interested in...
-          </Heading>
-          <Flex {...group} wrap="wrap" px={1}>
-            {options.map((value) => {
-              const radio = getRadioProps({ value });
-              return (
-                <RadioCard key={value} {...radio}>
-                  {value}
-                </RadioCard>
-              );
-            })}
-          </Flex>
           <Stack as="form" onSubmit={handleSubmit(onSubmit)}>
             <FormControl isRequired isInvalid={errors.name} my={4}>
               <FormLabel htmlFor="name">Enter Name</FormLabel>

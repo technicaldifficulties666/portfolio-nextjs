@@ -15,9 +15,9 @@ const Contact = () => {
   
   return (
     <Center>
-      <SimpleGrid my={["5rem","4rem"]} width={["90vw","95vw","85vw"]} templateColumns={[null,null,"40% 55%"]}>
+      <SimpleGrid my={["5rem","4rem"]}  templateColumns={[null,null,"40% 55%"]}>
         <RevealWrapper className="load-hidden" delay={300}>
-            <Heading fontSize="2.8rem">
+            <Heading fontSize="2.5rem" margin="5px">
               Let&apos;s discuss on something{" "}
               <Text color="social.instagram" display="inline">
                 cool
@@ -28,21 +28,21 @@ const Contact = () => {
             <Stack marginTop="4rem">
               <Tooltip label="Send Mail">
                 <Link
-                  href="mailto:vaheedsk36@gmail.com"
+                  href="mailto:subaig24bindra@gmail.com"
                   target="_blank"
                   className="contact-text-span"
                   my={3}
                   _hover={{ textDecoration: "none" }}
                 >
                   <Icon as={IoIosMail} mx={2} />
-                  <Text>vaheedsk36@gmail.com</Text>
+                  <Text fontSize="1.2rem">subaig24bindra@gmail.com</Text>
                 </Link>
               </Tooltip>
 
-              <Tooltip label="Open Map">
-                  <Text className="contact-text-span" my={3} onClick={onOpen} cursor="pointer">
+              <Tooltip label="Location">
+                  <Text className="contact-text-span" my={3}>
                     <Icon as={ImLocation} mx={2} />
-                    <span>Hyderabad, India</span>
+                    <Text fontSize="1.2rem">Vancouver, BC</Text>
                   </Text>
               </Tooltip>
             </Stack>
