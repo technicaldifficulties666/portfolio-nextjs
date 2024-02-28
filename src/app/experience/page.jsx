@@ -9,7 +9,7 @@ const Work = () => {
   return (
     <>
       <Center>
-        <Box width={["80vw", "80vw", "79vw"]} height="100%">
+        <Box width={["80vw", "80vw", "79vw"]} height="100%" marginBottom="2.3rem">
           <Heading className="sub-heading" size="md" my={3}>
             EXPERIENCE
           </Heading>

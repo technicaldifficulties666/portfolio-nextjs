@@ -71,8 +71,8 @@ export const links = [
   { text: "Skills", path: "/skills" },
   { text: "Projects", path: "/projects" },
   { text: "Experience", path: "/experience" },
-  { text: "Contact", path: "/contact" },
   { text: "Resume", path: "/resume" },
+  { text: "Contact", path: "/contact" },
 ];
 
 export const interestsData = [
@@ -109,97 +109,6 @@ export const interestsData = [
     icon: GiGuitarBassHead,
   },
 ];
-
-// export const skillsData = [
-//   {
-//     name: "HTML5",
-//     icon: FaHtml5,
-//   },
-//   {
-//     name: "CSS3",
-//     icon: FaCss3,
-//   },
-//   {
-//     name: "Javascript",
-//     icon: TbBrandJavascript,
-//   },
-//   {
-//     name: "Jquery",
-//     icon: BiLogoJquery,
-//   },
-//   {
-//     name: "Typescript",
-//     icon: TbBrandTypescript,
-//   },
-//   {
-//     name: "SASS",
-//     icon: FaSass,
-//   },
-//   {
-//     name: "Bootstrap",
-//     icon: TbBrandBootstrap,
-//   },
-//   {
-//     name: "C/C++",
-//     icon: TbBrandCpp,
-//   },
-//   {
-//     name: "Python",
-//     icon: FaPython,
-//   },
-//   {
-//     name: "ReactJS",
-//     icon: FaReact,
-//   },
-//   {
-//     name: "Redux",
-//     icon: TbBrandRedux,
-//   },
-//   {
-//     name: "NodeJs",
-//     icon: FaNodeJs,
-//   },
-//   {
-//     name: "PugJs",
-//     icon: SiPug,
-//   },
-//   {
-//     name: "Express",
-//     icon: SiExpress,
-//   },
-//   {
-//     name: "Docker",
-//     icon: FaDocker,
-//   },
-//   {
-//     name: "Postgres",
-//     icon: BiLogoPostgresql,
-//   },
-//   {
-//     name: "Postman",
-//     icon: SiPostman,
-//   },
-//   {
-//     name: "Git",
-//     icon: BsGit,
-//   },
-//   {
-//     name: "Github",
-//     icon: FaGithub,
-//   },
-//   {
-//     name: "ChatGPT",
-//     icon: GiArtificialIntelligence,
-//   },
-//   {
-//     name: "Bash",
-//     icon: SiGnubash,
-//   },
-//   {
-//     name: "Markdown",
-//     icon: BsMarkdown,
-//   },
-// ];
 
 export const skillsDevelopment = [
   {
@@ -391,45 +300,89 @@ export const skillsTools = [
 
 export const workData = [
   {
-    company: "1Digitalstack.ai",
-    designation: "Software Engineer 1",
-    duration: "March 2022 - Present",
-    companyImg: "1ds.jpg",
+    company: "The Peak Publications Society ",
+    designation: "Website Manager",
+    duration: "Sep 2022 - Present | Burnaby, BC",
+    companyImg: "peak-re.png",
     description: (
       <>
         <ul>
           <li>
-            I work on Reviniti, an analytics product designed for e-commerce
-            players in the bid management domain. Solely migrated the old
-            codebase from a templating engine (PugJS) to React with TypeScript.
+           Maintained the website of The Peak, Simon Fraser University’s student weekly
           </li>
           <li>
-            Engaged in developing new features, refactoring code, enhancing
-            product performance, bug fixes and contributing towards achieving
-            high scalability for the product.
+           Demonstrated proficiency in CMS using WordPress, phpMyAdmin and Linux
+           Ubuntu server for ensuring continuous uptime & timely content upload
+          </li>
+          <li>
+           Boosted site performance by 50% with SEO, web analytics and real-time security monitoring
+          </li> 
+        </ul>
+      </>
+    ),
+  },
+  {
+    company: "Fastloop ",
+    designation: "Full-Stack Engineer",
+    duration: "May 2023 - Sep 2023 | Vancouver, BC",
+    companyImg: "fastloop.png",
+    description: (
+      <>
+        <ul>
+          <li>
+           Created a data data modeling dashboard using Angular and Node Express stack
+          </li>
+          <li>
+           Optimized team productivity through implementation of an in-house Slack app,
+           boosting workflow efficiency and collaborative output by 20%
+          </li>
+          <li>
+          Collaborated in a hybrid work setting and gained approval for projects from major stakeholders
+            </li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    company: "Xneelo",
+    designation: "Junior Software Developer",
+    duration: "Jan 2022 - Sep 2022 | Vancouver, BC",
+    companyImg: "xneelo.jpeg",
+    description: (
+      <>
+        <ul>
+          <li>
+            Aided in developing and maintaining the Managed WordPress hosting platform,
+            using React TypeScript and Ruby on Rails stack
+          </li>
+          <li>
+            Implemented Test Driven Development (TDD) and DevOps principles, incorporating
+            virtualization, continuous integration, and continuous delivery (CI/CD) using tools like Docker, Kubernetes & Jenkins
+          </li>
+          <li>
+          Curbed technical roadblocks to achieve successful feature releases and client onboarding 
           </li>
         </ul>
       </>
     ),
   },
   {
-    company: "Fact.MR",
-    designation: "Associate Consultant Level 01",
-    duration: "Dec 2020 - July 2021",
-    companyImg: "fmr.svg",
+    company: "Vecima Networks",
+    designation: "Front End Developer",
+    duration: "Sep 2020 - May 2021 | Burnaby, BC",
+    companyImg: "vecima_networks_logo.png",
     description: (
       <>
         <ul>
           <li>
-            Engaged in creating comprehensive client-specific and syndicated
-            research reports, along with SEO-focused articles and collateral
-            materials within the domains of chemicals, materials, consumer
-            goods, and industrial goods.
+            Aided in developing new UI for Fleet Tracking using HTML, CSS, jQuery & PHP
           </li>
           <li>
-            Expertly estimated market valuations and conducted primary research
-            in collaboration with industry experts to validate data, extract
-            valuable market insights.
+            Collaborated with UX designers to overhaul & migrate existing functionality,
+            ensuring a consistent UI for engaging 10,000+ users & 1,500+ vehicles
+          </li>
+          <li>
+            Facilitated staged feature rollout, implementing user feedback for improvements
           </li>
         </ul>
       </>
@@ -459,21 +412,21 @@ export const projectsData = [
   },
   {
     type: "SaaS",
-    title: "Vistabots.ai",
-    image: "vistabots-ai",
-    link: "https://vistabots.ai/",
-    source: "",
-    description: "Involved in creating a GPT-powered live chat for online customer support, enabling rapid AI training and deployment. My contribution covered backend, frontend, and full-stack engineering skills.",
-    languages: "Node.js, React.js, MongoDB",
-  },
-  {
-    type: "SaaS",
     title: "Make-CV",
     image: "make-cv",
     link: "https://make-cv.com/",
     source: "",
     description: "A drag and drop resume and cover letter builder using PHP, Laravel, and MySQL. Aimed at providing a seamless user experience and helping users present their qualifications effectively to employers.",
     languages: "PHP, Laravel, and MySQL",
+  },
+  {
+    type: "SaaS",
+    title: "Vistabots.ai",
+    image: "vistabots-ai",
+    link: "https://vistabots.ai/",
+    source: "",
+    description: "Involved in creating a GPT-powered live chat for online customer support, enabling rapid AI training and deployment. My contribution covered backend, frontend, and full-stack engineering skills.",
+    languages: "Node.js, React.js, MongoDB",
   },
   {
     type: "Micro-app",
@@ -493,77 +446,6 @@ export const projectsData = [
     description: "A music player application utilizing HTML, CSS, JavaScript and SoundCloud API. The app allows search functionality to browse songs by artist, title, or genre, and playback controls to play or pause music.",
     languages: "HTML, CSS, JavaScript"
   },
-
-  // {
-  //   type: "WEB-APP",
-  //   title: "Movie Magnet",
-  //   image: "movie-magnet",
-  //   link: "https://movie-magnet-smoky.vercel.app/",
-  //   source: "https://github.com/vaheedsk36/movie-magnet",
-  // },
-  // {
-  //   type: "WEB-APP",
-  //   title: "Portfolio Website",
-  //   image: "portfolio-website",
-  //   link: null,
-  //   source: "https://github.com/vaheedsk36/portfolio-website-nextjs",
-  // },
-  // {
-  //   type: "WEB-APP",
-  //   title: "Weather App",
-  //   image: "weather-app",
-  //   link: "https://vaheedsk36.github.io/weather-app/",
-  //   source: "https://github.com/vaheedsk36/weather-app",
-  // },
-  // {
-  //   type: "WEB-APP",
-  //   title: "Landing Page",
-  //   image: "landing-page",
-  //   link: "https://vaheedsk36.github.io/demo-frontend-bootcamp",
-  //   source: "https://github.com/vaheedsk36/demo-frontend-bootcamp",
-  // },
-  // {
-  //   type: "WEB-APP",
-  //   title: "Guess Game",
-  //   image: "guess-game",
-  //   link: "https://vaheedsk36.github.io/guess-my-number",
-  //   source: "https://github.com/vaheedsk36/guess-my-number",
-  // },
-  // {
-  //   type: "WEB-APP",
-  //   title: "Notes App",
-  //   image: "react-notes-app",
-  //   link: "https://vaheedsk36.github.io/react-notes-app/",
-  //   source: "https://github.com/vaheedsk36/react-notes-app",
-  // },
-  // {
-  //   type: "WEB-APP",
-  //   title: "Dice Multiplayer",
-  //   image: "dice-multiplayer",
-  //   link: "https://vaheedsk36.github.io/dice-multiplayer",
-  //   source: "https://github.com/vaheedsk36/dice-multiplayer",
-  // },
-  // {
-  //   type: "PROJECT",
-  //   title: "Snake Game",
-  //   image: "snake-game",
-  //   link: "https://vaheedsk36.github.io/Snake-game",
-  //   source: "",
-  // },
-  // {
-  //   type: "PROJECT",
-  //   title: "Delta Assistant",
-  //   image: "delta-assistant",
-  //   link: "",
-  //   source: "https://github.com/vaheedsk36/Delta-Desktop-Virtual-Assistant",
-  // },
-  // {
-  //   type: "WEB-APP",
-  //   title: "Text Utility App",
-  //   image: "text-utility-app",
-  //   link: "https://vaheedsk36.github.io/text-utility-app/",
-  //   source: "https://github.com/vaheedsk36/text-utility-app",
-  // },
 ];
 
 export const education = [

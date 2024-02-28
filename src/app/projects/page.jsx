@@ -33,7 +33,7 @@ const Projects = () => {
 
   return (
     <Center>
-      <Box width={["90vw", "90vw", "80vw"]} height="100%" marginBottom="4rem">
+      <Box width={["90vw", "90vw", "80vw"]} height="100%" marginBottom="3rem">
         <Heading className="sub-heading" size="md" my={3}>
           PROJECTS
         </Heading>

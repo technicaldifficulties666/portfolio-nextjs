@@ -18,7 +18,7 @@ const Page = () => {
   return (
     <>
       <Center m={5}>
-        <Box width="80vw" height="100%">
+        <Box width="80vw" height="100%" marginBottom="2rem">
           <RevealWrapper className="load-hidden" id="about" delay={300}>
             <Heading className="sub-heading" size="md" my={3}>
               ABOUT
@@ -44,7 +44,7 @@ const Page = () => {
                   👋 Hey there
                 </Heading>
                 <br />
-                <Text>
+                <Text marginRight="1.5rem">
                   I&apos;m <span className="name">Subaig</span>, a 
                   {" "}
                   <span className="tech">full-stack developer</span> with 3+ years 
@@ -53,13 +53,13 @@ const Page = () => {
                   Getting my hands dirty and creating something that brings value to 
                   people out there is the most rewarding aspect of my work. I&apos;m 
                   proficient in time management, collaborating with cross-functional 
-                  teams, presentation & project management. I utilize best coding 
+                  teams, presentation and project management. I utilize best coding 
                   practices to write well-tested & maintainable code, and I&apos;m
                   always learning new tools & techniques to stay at the forefront 
                   of the ever-evolving tech landscape. 
                 </Text>
                 <br />
-                <Text>
+                <Text marginRight="1.5rem">
                   📫 Open to collaborations and exciting projects, I&apos;m
                   eager to connect with fellow developers and tech enthusiasts.
                   Let&apos;s build something amazing together!

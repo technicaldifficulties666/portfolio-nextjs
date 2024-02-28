@@ -18,7 +18,7 @@ const Skills = () => {
 
   return (
     <Center height="70vh" >
-      <Box width="80vw" height="100%">
+      <Box width="80vw" height="100%" >
         <Heading className="sub-heading" size="md" my={3}>
           TECHNICAL SKILLS
         </Heading>
