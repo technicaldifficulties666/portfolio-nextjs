@@ -1,5 +1,7 @@
 "use client";
 import React from "react";
+import Education from "./Education";
+
 import {
   Heading,
   SimpleGrid,
@@ -9,7 +11,7 @@ import {
   Text,
 } from "@chakra-ui/react";
 import InterestsCard from "./InterestsCard";
-import { interestsData } from "../../utils/constants";
+import { interestsData, education } from "../../utils/constants";
 import { RevealWrapper } from "next-reveal";
 
 const Page = () => {
@@ -29,12 +31,12 @@ const Page = () => {
               templateColumns={[null, null, "30% 70%"]}
             >
               <Image
-                objectFit="shrink"
-                src="/images/profile.png"
+                objectFit="cover"
+                src="/images/profile0.jpeg"
                 alt="profile-image"
                 width={["20rem", "30rem", "20rem"]}
-                height={["20rem", "30rem", "20rem"]}
-                marginBottom={["1rem", "1rem", null]}
+                height={["20rem", "30rem", "22rem"]}
+                //marginBottom={["1rem", "1rem", null]}
               />
 
               <Box textAlign="justify">
@@ -43,14 +45,18 @@ const Page = () => {
                 </Heading>
                 <br />
                 <Text>
-                  I&apos;m <span className="name">Vaheed</span>, a passionate
-                  software developer. I specialize in{" "}
-                  <span className="tech">Web Development</span>, crafting
-                  seamless user experiences and robust backend solutions. With a
-                  knack for problem-solving, I thrive on creating elegant code
-                  that makes an impact. I&apos;m always exploring new tools and
-                  techniques to stay at the forefront of the ever-evolving tech
-                  landscape.
+                  I&apos;m <span className="name">Subaig</span>, a 
+                  {" "}
+                  <span className="tech">full-stack developer</span> with 3+ years 
+                  of experience. I&apos;m passionate about solving real-world problems and 
+                  building scalable apps with seamless user experiences. 
+                  Getting my hands dirty and creating something that brings value to 
+                  people out there is the most rewarding aspect of my work. I&apos;m 
+                  proficient in time management, collaborating with cross-functional 
+                  teams, presentation & project management. I utilize best coding 
+                  practices to write well-tested & maintainable code, and I&apos;m
+                  always learning new tools & techniques to stay at the forefront 
+                  of the ever-evolving tech landscape. 
                 </Text>
                 <br />
                 <Text>
@@ -65,8 +71,20 @@ const Page = () => {
               </Box>
             </SimpleGrid>
           </RevealWrapper>
+
+          <RevealWrapper className="load-hidden" delay={600}>
+          <Heading className="sub-heading" size="md" my={3} >
+          EDUCATION
+          </Heading>
+            <SimpleGrid>
+              {education.map((data, index) => {
+                return <Education {...{ data }} key={index} />;
+              })}
+            </SimpleGrid>
+          </RevealWrapper>
+
           <RevealWrapper className="load-hidden" id="interests" delay={600}>
-            <Heading className="sub-heading" size="md" my={3}>
+            <Heading style={{ paddingTop: "2rem" }} className="sub-heading" size="md" my={3}>
               INTERESTS
             </Heading>
             <SimpleGrid

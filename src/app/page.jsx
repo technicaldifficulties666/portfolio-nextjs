@@ -7,6 +7,7 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import particleConfig from "../particlesjs.json";
 import { RevealWrapper } from "next-reveal";
+import Footer from "../components/Footer";
 
 export default function Home() {
   const typedTextRef = useRef(null);
@@ -16,7 +17,7 @@ export default function Home() {
 
   useEffect(() => {
     const options = {
-      strings: ["Developer", "Coder", "Tech Blogger", "Tech Enthusiast"],
+      strings: ["Full-Stack Developer", "Coder", "Website Manager", "UI/UX Designer", "Data Analyst"],
       typeSpeed: 50,
       backSpeed: 35,
       loop: true,
@@ -51,7 +52,7 @@ export default function Home() {
           <RevealWrapper className="load-hidden" delay={300}>
             <Image
               objectFit="shrink"
-              src="/images/ar-profile-transformed.png"
+              src="/images/ar-profile-transformed8.png"
               alt="profile-image"
               width={["13rem", "13rem", "15rem"]}
               height={["13rem", "13rem", "15rem"]}
@@ -80,7 +81,7 @@ export default function Home() {
                 fontFamily="Black Ops One"
                 fontSize={["2.5rem", "3.7rem"]}
               >
-                Masood Akhtar
+                Subaig
               </Heading>
 
               <Heading
@@ -88,13 +89,13 @@ export default function Home() {
                 fontSize={["2.5rem", "3.7rem"]}
                 ml={[null, "1rem"]}
               >
-                Vaheed
+                Bindra
               </Heading>
             </Flex>
           </RevealWrapper>
           <RevealWrapper className="load-hidden" delay={600}>
             <Heading my={3} size="lg" fontFamily="Righteous">
-              I &apos;m <span className="typed-text" ref={typedTextRef}></span>
+              I &apos;m a <span className="typed-text" ref={typedTextRef}></span>
             </Heading>
           </RevealWrapper>
           <RevealWrapper className="load-hidden" delay={700}>

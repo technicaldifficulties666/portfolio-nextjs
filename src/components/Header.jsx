@@ -4,6 +4,7 @@ import React from "react";
 import MobileHeader from "./MobileHeader";
 import { links } from "../utils/constants";
 import { usePathname } from "next/navigation";
+//import { Link } from "react-scroll";
 
 export default function Header() {
   const pathname = usePathname();
@@ -25,7 +26,7 @@ export default function Header() {
           fontSize="lg"
           _hover={{ textDecoration: "none", color:"blueTheme.navLinkActive",transition:"all .5s ease-in-out" }}
         >
-          VAHEED SHAIK  {"</>"} {" "}
+          SUBAIG BINDRA  {"</>"} {" "}
         </Link>
 
         <HStack as="nav" spacing="5" display={{ base: "none", md: "flex" }}>
@@ -33,7 +34,7 @@ export default function Header() {
             <Link
               key={index}
               href={link.path}
-              fontWeight="extrabold"
+              fontWeight="normal"
               _hover={{ textDecoration: "none", color: "blueTheme.navLinkActive" }}
               fontSize="lg"
               className={pathname === link.path ? "active-link" : ""}

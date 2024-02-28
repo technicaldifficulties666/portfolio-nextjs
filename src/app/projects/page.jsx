@@ -13,6 +13,7 @@ import {
 import RadioCard from "../../components/RadioCards";
 import { projectsData } from "../../utils/constants";
 import { RevealWrapper } from "next-reveal";
+import "../../styles/main.scss";
 
 const Projects = () => {
   const [selectedData, setSelectedData] = useState(projectsData);
@@ -22,9 +23,9 @@ const Projects = () => {
         ? projectsData
         : projectsData.filter((data) => data.type === value);
     });
-  const options = ["ALL", "WEB-APP", "PROJECT"];
+  const options = ["ALL","SaaS", "Micro-app"];
   const { getRootProps, getRadioProps } = useRadioGroup({
-    name: "project",
+    name: "SaaS",
     defaultValue: "ALL",
     onChange: valSelectFn,
   });

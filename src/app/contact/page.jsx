@@ -51,7 +51,7 @@ const Contact = () => {
         </RevealWrapper>
         <ContactForm />
       </SimpleGrid>
-      <MapBox {...{isOpen, onOpen, onClose }}/>
+
     </Center>
   );
 };
