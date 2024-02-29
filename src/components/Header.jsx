@@ -29,7 +29,7 @@ export default function Header() {
           SUBAIG BINDRA  {"</>"} {" "}
         </Link>
 
-        <HStack as="nav" spacing="5" display={{ base: "none", md: "flex" }}>
+        <HStack as="nav" spacing="5" display={{ base: "none", md: "flex" }} marginRight="6rem">
           {links.map((link, index) => (
             <Link
               key={index}

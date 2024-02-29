@@ -69,9 +69,9 @@ export const links = [
   { text: "Home", path: "/" },
   { text: "About", path: "/about" },
   { text: "Skills", path: "/skills" },
-  { text: "Projects", path: "/projects" },
   { text: "Experience", path: "/experience" },
-  { text: "Resume", path: "/resume" },
+  { text: "Projects", path: "/projects" },
+  //{ text: "Resume", path: "/resume" },
   { text: "Contact", path: "/contact" },
 ];
 
@@ -452,7 +452,7 @@ export const education = [
   {
     company: "Simon Fraser University, Burnaby, BC",
     designation: "Bachelor of Science, Co-operative Education - Major in Computing Science",
-    duration: "September 2019 - December 2023",
+    duration: "Sep 2019 - Dec 2023",
     companyImg: "SFU_vertical_colour_rgb.png",
     description: (
       <>

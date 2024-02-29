@@ -1,10 +1,13 @@
 import React from "react";
 import { socialMediaLinks } from "../utils/constants";
-import { Flex } from "@chakra-ui/react";
+import { Flex, Card, CardBody, Heading, Text } from "@chakra-ui/react";
 import { Icon } from "@chakra-ui/react";
 import { Link } from "@chakra-ui/next-js";
+import { AiOutlineDownload } from "react-icons/ai";
 
 const SocialIcons = () => {
+  const viewResumeLink = "https://drive.google.com/file/d/1shcZIM_YzVgyhQGsqJwYWKy7Ig7yztB7/view";
+
   return (
     <Flex
       margin="1.5rem 0"
@@ -35,6 +38,25 @@ const SocialIcons = () => {
           <Icon as={linkData.icon} />
         </Link>
       ))}
+            <a href={viewResumeLink} target="_blank">
+              <Card
+                borderRadius="1rem"
+                backgroundColor="blueTheme.card"
+                transition="all .2s ease-in-out"
+                _hover={{
+                  cursor: "pointer",
+                  backgroundColor: "blueTheme.cardHover",
+                  transform: "scale(1.05)",
+                }}
+              >
+                <CardBody display="flow" alignItems="center" textAlign="center">
+                  
+                  <Heading my={-0.5} textAlign="center"  fontSize="0.9rem" className="text-button-resume">
+                    Resume
+                  </Heading>
+                </CardBody>
+              </Card>
+            </a>
     </Flex>
   );
 };
