@@ -9,17 +9,17 @@ const InterestsCard = ({ interest, icon }) => {
       display="grid"
       gridTemplateColumns="30% 70%"
       alignItems="center"
-      width={["80vw","80vw","17.5rem"]}
+      width={["80vw","80vw","18rem"]}
       height="5rem"
-      borderRadius="0"
+      borderRadius="0.5rem"
       backgroundColor="blueTheme.card"
       fontSize="2.5rem"
       padding="16px"
-      cursor="pointer"
+      //cursor="pointer"
       transition="background-color .3s ease-in-out"
       boxShadow="0 10px 30px -15px blueTheme.navShadow"
       _hover={{
-        backgroundColor: "blueTheme.cardHover",
+        backgroundColor: "blueTheme.cardHover", transform:"scale(1.05)"
       }}
     >
       <Icon as={icon} />

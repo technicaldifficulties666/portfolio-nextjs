@@ -35,17 +35,18 @@ const ProjectCard = (props) => {
           {title}
         </Text>
         <Card
+            maxW={{ base: "80%", md: "100%", lg: "100%" }}
             onMouseEnter={() => setShowHover(true)}
             onMouseLeave={() => setShowHover(false)}
             zIndex={0}
             boxShadow="0 10px 30px -10px black"
-
           >
             <Image
               objectFit="cover"
               src={`images/${image}.png`}
               alt="project-img"
               height="15rem"
+              borderRadius="0.5rem"
             />
             <Flex
             
