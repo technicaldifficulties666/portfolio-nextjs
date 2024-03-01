@@ -88,7 +88,7 @@ const ContactForm = () => {
   return (
     <>
     <RevealWrapper className="load-hidden" delay={600}>
-      <Card className="contact-form-card" borderRadius="2rem" backgroundColor="white" padding="10px 15px">
+      <Card size='sm' className="contact-form-card" borderRadius="2rem" backgroundColor="white" padding="10px 15px">
         <CardBody>
           <Stack as="form" onSubmit={handleSubmit(onSubmit)}>
             <FormControl isRequired isInvalid={errors.name} my={4}>

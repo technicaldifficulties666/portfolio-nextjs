@@ -32,13 +32,13 @@ const Projects = () => {
   const group = getRootProps();
 
   return (
-    <Center>
-      <Box width={["90vw", "90vw", "80vw"]} height="100%" marginBottom="3rem">
+    <Center m={5}>
+      <Box width={["90vw", "90vw", "80vw"]} height="100%" marginBottom="2rem">
         <Heading className="sub-heading" size="md" my={3}>
           PROJECTS
         </Heading>
 
-        <Flex {...group} w="100%" px="6" py="5" align="center" justify="center">
+        <Flex {...group} w="100%" px="6" py="3" align="center" justify="center">
           <HStack>
             {options.map((value) => {
               const radio = getRadioProps({ value });

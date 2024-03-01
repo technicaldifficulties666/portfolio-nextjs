@@ -21,13 +21,13 @@ const Page = () => {
         <Box width="80vw" height="100%" marginBottom="2rem">
           <RevealWrapper className="load-hidden" id="about" delay={300}>
             <Heading className="sub-heading" size="md" my={3}>
-              ABOUT
+              BIO
             </Heading>
             <SimpleGrid
               columns={[1, null, 2]}
               gap={6}
               fontSize="1.1rem"
-              marginBottom="4rem"
+              marginBottom="3rem"
               templateColumns={[null, null, "30% 70%"]}
             >
               <Image
@@ -35,7 +35,7 @@ const Page = () => {
                 src="/images/profile0.jpeg"
                 alt="profile-image"
                 width={["20rem", "30rem", "20rem"]}
-                height={["20rem", "30rem", "22rem"]}
+                height={["20rem", "30rem", "23rem"]}
                 //marginBottom={["1rem", "1rem", null]}
               />
 
@@ -88,7 +88,7 @@ const Page = () => {
               INTERESTS
             </Heading>
             <SimpleGrid
-              spacing={4}
+              spacing={5}
               templateColumns="repeat(auto-fill, minmax(270px, 1fr))"
             >
               {interestsData.map((data, index) => {

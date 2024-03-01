@@ -33,7 +33,7 @@ const WorkCard = (props) => {
               backgroundColor="white"
               display={["none","unset","unset"]}
             />
-            <Box>
+            <Box paddingLeft="0.5rem">
               <Heading fontSize="1.5rem">{company}</Heading>
               <Heading size="sm" my={2}>
                 {duration}

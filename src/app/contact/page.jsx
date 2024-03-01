@@ -13,15 +13,14 @@ const Contact = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   
   return (
-    <Center>
-      <SimpleGrid my={["5rem","4rem"]}  templateColumns={[null,null,"40% 55%"]}>
+    <Center m={5}>
+      <SimpleGrid my={["5rem","2rem"]}  templateColumns={[null,null,"40% 55%"]}>
         <RevealWrapper className="load-hidden" delay={300}>
             <Heading fontSize="2.5rem" margin="5px">
-              Let&apos;s discuss on something{" "}
+              Let&apos;s talk about something{" "}
               <Box color="social.instagram" display="inline">
                 cool
               </Box>{" "}
-              together
             </Heading>
 
             <Stack marginTop="4rem">

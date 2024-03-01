@@ -68,9 +68,9 @@ import { DiDjango, DiMsqlServer, DiRedis } from "react-icons/di";
 export const links = [
   { text: "Home", path: "/" },
   { text: "About", path: "/about" },
+  { text: "Projects", path: "/projects" },
   { text: "Skills", path: "/skills" },
   { text: "Experience", path: "/experience" },
-  { text: "Projects", path: "/projects" },
   //{ text: "Resume", path: "/resume" },
   { text: "Contact", path: "/contact" },
 ];
@@ -142,6 +142,10 @@ export const skillsDevelopment = [
   {
     name: "Angular",
     icon: FaAngular,
+  },
+  {
+    name: "NextJS",
+    icon: SiNextdotjs,
   },
   {
     name: "ExpressJS",
@@ -308,14 +312,14 @@ export const workData = [
       <>
         <ul>
           <li>
-           Maintained the website of The Peak, Simon Fraser University’s student weekly
+           Maintained the website of <i>The Peak</i>, Simon Fraser University’s student weekly
           </li>
           <li>
            Demonstrated proficiency in CMS using WordPress, phpMyAdmin and Linux
-           Ubuntu server for ensuring continuous uptime & timely content upload
+           Ubuntu server for ensuring continuous uptime, recurring backups and timely content upload
           </li>
           <li>
-           Boosted site performance by 50% with SEO, web analytics and real-time security monitoring
+           Boosted site performance by 50% with Search engine optimization (SEO), web analytics and real-time security monitoring
           </li> 
         </ul>
       </>
@@ -330,7 +334,7 @@ export const workData = [
       <>
         <ul>
           <li>
-           Created a data data modeling dashboard using Angular and Node Express stack
+           Created a data visualization dashboard using Angular and Node Express stack
           </li>
           <li>
            Optimized team productivity through implementation of an in-house Slack app,
@@ -345,19 +349,19 @@ export const workData = [
   },
   {
     company: "Xneelo",
-    designation: "Junior Software Developer",
+    designation: "Software Developer",
     duration: "Jan 2022 - Sep 2022 | Vancouver, BC",
     companyImg: "xneelo.jpeg",
     description: (
       <>
         <ul>
           <li>
-            Aided in developing and maintaining the Managed WordPress hosting platform,
+            Aided in developing and maintaining the Managed WordPress Hosting platform,
             using React TypeScript and Ruby on Rails stack
           </li>
           <li>
             Implemented Test Driven Development (TDD) and DevOps principles, incorporating
-            virtualization, continuous integration, and continuous delivery (CI/CD) using tools like Docker, Kubernetes & Jenkins
+            virtualization, continuous integration, and continuous delivery (CI/CD) using tools like Docker, Kubernetes and Jenkins
           </li>
           <li>
           Curbed technical roadblocks to achieve successful feature releases and client onboarding 
@@ -375,14 +379,14 @@ export const workData = [
       <>
         <ul>
           <li>
-            Aided in developing new UI for Fleet Tracking using HTML, CSS, jQuery & PHP
+            Aided in developing new UI for Fleet Tracking using HTML, CSS, jQuery and PHP
           </li>
           <li>
-            Collaborated with UX designers to overhaul & migrate existing functionality,
-            ensuring a consistent UI for engaging 10,000+ users & 1,500+ vehicles
+            Collaborated with UX designers to overhaul and migrate existing functionality,
+            ensuring a consistent UI for engaging 10,000+ users and 1,500+ vehicles
           </li>
           <li>
-            Facilitated staged feature rollout, implementing user feedback for improvements
+            Facilitated staged feature rollout, collected user feedback, and implemented further improvements
           </li>
         </ul>
       </>

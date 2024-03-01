@@ -17,7 +17,7 @@ import { skillsDevelopment,skillsDatabase,skillsTools } from "../../utils/consta
 const Skills = () => {
 
   return (
-    <Center height="70vh" >
+    <Center m={5} height="70vh" >
       <Box width="80vw" height="100%" >
         <Heading className="sub-heading" size="md" my={3}>
           TECHNICAL SKILLS
@@ -65,7 +65,6 @@ const Skills = () => {
           templateColumns="repeat(auto-fill, minmax(145px, 1fr))"
           paddingBottom="1rem"
           paddingTop="1rem"
-
         >
           {skillsDatabase.map((data, index) => {
             return (
@@ -120,6 +119,37 @@ const Skills = () => {
             );
           })}
         </SimpleGrid>
+
+        <Heading className="sub-heading" size="md" my={3}>
+        SOFT SKILLS
+        </Heading>
+        <ul   style={{ paddingBottom:"2rem", paddingLeft: "1rem"}}>
+          <li>
+            <div style={{margin: "1rem",fontSize: "0.95rem",}}>
+                <Heading fontSize="1.1rem">  Cultural Intelligence and Adaptability  </Heading>
+            </div>
+          </li>
+          <li>
+            <div style={{margin: "1rem",fontSize: "0.95rem",}}>
+                <Heading fontSize="1.1rem">  Analytical Problem Solving</Heading>
+            </div>
+          </li>
+          <li>
+            <div style={{margin: "1rem",fontSize: "0.95rem",}}>
+                <Heading fontSize="1.1rem">  Teamwork and Collaboration</Heading>
+            </div>
+          </li>
+          <li>
+            <div style={{margin: "1rem",fontSize: "0.95rem",}}>
+                <Heading fontSize="1.1rem">  Effective Written and Verbal Communication </Heading>
+            </div>
+          </li>
+          <li>
+            <div style={{margin: "1rem",fontSize: "0.95rem",}}>
+                <Heading fontSize="1.1rem">  Time Management, Self-Motivation, and Independence  </Heading>
+            </div>
+          </li>
+        </ul>
 
         </RevealWrapper>
       </Box>
