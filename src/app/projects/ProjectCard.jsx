@@ -1,7 +1,7 @@
 "use client";
 import ProjectModal from "./ProjectModal";
 import React, { useState } from "react";
-import { Card, ScaleFade, Image, Text, Link, Icon,Flex } from "@chakra-ui/react";
+import { Card, ScaleFade, Image, Text, Link, Icon,Flex, Center } from "@chakra-ui/react";
 import { FaLink,FaGithub } from "react-icons/fa6";
 import { BsInfoCircleFill } from "react-icons/bs";
 
@@ -22,6 +22,7 @@ const ProjectCard = (props) => {
 
   return (
     <>
+      <Center>
       <ScaleFade initialScale={1.2} in={true} reverse={true}>
         <Text
           style={{
@@ -35,7 +36,8 @@ const ProjectCard = (props) => {
           {title}
         </Text>
         <Card
-            maxW={{ base: "80%", md: "100%", lg: "100%" }}
+            maxW={{ base: "90%", md: "100%", lg: "100%" }}
+            margin="auto"
             onMouseEnter={() => setShowHover(true)}
             onMouseLeave={() => setShowHover(false)}
             zIndex={0}
@@ -80,6 +82,7 @@ const ProjectCard = (props) => {
        onClose={closeModal}
        projectData={props.data}
       />
+      </Center>
     </>
   );
 };
