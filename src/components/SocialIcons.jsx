@@ -6,7 +6,7 @@ import { Link } from "@chakra-ui/next-js";
 import { AiOutlineDownload } from "react-icons/ai";
 
 const SocialIcons = () => {
-  const viewResumeLink = "https://drive.google.com/file/d/17vk91cY_rGlx1Nwanm_Mu47744F5wUFP/view";
+  const viewResumeLink = "https://drive.google.com/file/d/1wni_r5umcO-I2zdYpgrxHOtFoeluVoN-/view";
 
   return (
     <Flex

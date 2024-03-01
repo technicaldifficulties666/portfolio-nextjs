@@ -40,7 +40,7 @@ const Contact = () => {
               <Tooltip label="Location">
                   <Box className="contact-text-span" my={3}>
                     <Icon as={ImLocation} mx={2} />
-                    <Box fontSize="1.2rem">Vancouver, BC</Box>
+                    <Box fontSize="1.2rem">Vancouver, Canada</Box>
                   </Box>
               </Tooltip>
             </Stack>
