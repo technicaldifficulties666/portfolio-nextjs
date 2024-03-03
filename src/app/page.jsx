@@ -17,7 +17,7 @@ export default function Home() {
 
   useEffect(() => {
     const options = {
-      strings: ["Full-Stack Developer", "Coder", "Website Manager", "UI/UX Designer", "Data Analyst"],
+      strings: ["Full-Stack Developer", "Coder", "Website Manager", "UI/UX Designer", "Data Analyst", "IT Systems Specialist"],
       typeSpeed: 50,
       backSpeed: 35,
       loop: true,

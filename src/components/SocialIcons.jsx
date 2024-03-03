@@ -52,7 +52,7 @@ const SocialIcons = () => {
                 <CardBody display="flow" alignItems="center" textAlign="center">
                   
                   <Heading my={-0.5} textAlign="center"  fontSize="0.9rem" className="text-button-resume">
-                    Resume
+                    Résumé
                   </Heading>
                 </CardBody>
               </Card>

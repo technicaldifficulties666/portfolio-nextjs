@@ -40,11 +40,11 @@ const Skills = () => {
                 key={index}
                 backgroundColor="blueTheme.card"
                 transition="all .2s ease-in-out"
-                _hover={{
+                /*_hover={{
                   cursor: "pointer",
                   backgroundColor: "blueTheme.cardHover",
                   transform:"scale(1.05)"
-                }}
+                }}*/
               >
                 <CardBody display="flow" alignItems="center" textAlign="center">
                   <Icon as={data.icon} width="55px" height="55px" />
@@ -72,11 +72,11 @@ const Skills = () => {
                 key={index}
                 backgroundColor="blueTheme.card"
                 transition="all .2s ease-in-out"
-                _hover={{
+                /*_hover={{
                 cursor: "pointer",
                 backgroundColor: "blueTheme.cardHover",
                 transform:"scale(1.05)"
-                }}
+                }}*/
               >
                 <CardBody display="flow" alignItems="center" textAlign="center" >
                   <Icon as={data.icon} width="55px" height="55px" />
@@ -103,11 +103,11 @@ const Skills = () => {
                 key={index}
                 backgroundColor="blueTheme.card"
                 transition="all .2s ease-in-out"
-                _hover={{
+                /*_hover={{
                 cursor: "pointer",
                 backgroundColor: "blueTheme.cardHover",
                 transform:"scale(1.05)"
-                }}
+                }}*/
               >
                 <CardBody display="flow" alignItems="center" textAlign="center" >
                   <Icon as={data.icon} width="55px" height="55px" />

@@ -18,9 +18,6 @@ const InterestsCard = ({ interest, icon }) => {
       //cursor="pointer"
       transition="background-color .3s ease-in-out"
       boxShadow="0 10px 30px -15px blueTheme.navShadow"
-      _hover={{
-        backgroundColor: "blueTheme.cardHover", transform:"scale(1.05)"
-      }}
     >
       <Icon as={icon} />
       <Heading size="md">{interest}</Heading>
