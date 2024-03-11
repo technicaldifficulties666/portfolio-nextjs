@@ -47,7 +47,7 @@ const Page = () => {
                 <Text marginRight="1.5rem">
                   I&apos;m <span className="name">Subaig</span>, a 
                   {" "}
-                  <span className="tech">full-stack developer</span> with 3+ years 
+                  <span className="tech">full-stack developer</span> with 4+ years 
                   of experience. I&apos;m passionate about solving real-world problems and 
                   building scalable apps with seamless user experiences. 
                   Getting my hands dirty and creating something that brings value to 

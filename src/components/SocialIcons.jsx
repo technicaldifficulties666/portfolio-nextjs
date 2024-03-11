@@ -46,7 +46,7 @@ const SocialIcons = () => {
                 _hover={{
                   cursor: "pointer",
                   backgroundColor: "blueTheme.cardHover",
-                  transform: "scale(1.05)",
+                  //transform: "scale(1.05)",
                 }}
               >
                 <CardBody display="flow" alignItems="center" textAlign="center">

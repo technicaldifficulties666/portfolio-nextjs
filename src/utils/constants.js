@@ -28,7 +28,15 @@ import {
   TbBrandBootstrap,
   TbBrandCSharp,
 } from "react-icons/tb";
-import { BiLogoJquery, BiLogoPostgresql, BiLogoJava, BiLogoPhp } from "react-icons/bi";
+import { 
+  BiLogoJquery, 
+  BiLogoPostgresql, 
+  BiLogoJava, 
+  BiLogoPhp, 
+  BiLogoSpringBoot, 
+  BiLogoGraphql,
+  BiLogoTailwindCss,
+ } from "react-icons/bi";
 import {
   SiPug,
   SiExpress,
@@ -49,7 +57,7 @@ import {
   SiMicrosoftoffice,
 } from "react-icons/si";
 import { AiFillCode } from "react-icons/ai";
-import { FaHashnode, FaGuitar, FaAngular, FaGitlab } from "react-icons/fa6";
+import { FaHashnode, FaGuitar, FaAngular, FaGitlab, FaDrupal } from "react-icons/fa6";
 import {
   BsGlobe,
   BsCodeSlash,
@@ -71,7 +79,6 @@ export const links = [
   { text: "Projects", path: "/projects" },
   { text: "Skills", path: "/skills" },
   { text: "Experience", path: "/experience" },
-  //{ text: "Resume", path: "/resume" },
   { text: "Contact", path: "/contact" },
 ];
 
@@ -136,7 +143,11 @@ export const skillsDevelopment = [
     icon: BiLogoJquery,
   },
   {
-    name: "ReactJS",
+    name: "PHP",
+    icon: BiLogoPhp,
+  },
+  {
+    name: "React",
     icon: FaReact,
   },
   {
@@ -152,40 +163,44 @@ export const skillsDevelopment = [
     icon: SiExpress,
   },
   {
-    name: "Ruby on Rails",
-    icon: SiRubyonrails,
+    name: "Java",
+    icon: BiLogoJava,
   },
   {
-    name: "Bootstrap",
-    icon: TbBrandBootstrap,
+    name: "Spring Boot",
+    icon: BiLogoSpringBoot,
+  },
+  {
+    name: "GraphQL",
+    icon: BiLogoGraphql,
+  },
+  {
+    name: "Ruby on Rails",
+    icon: SiRubyonrails,
   },
   {
     name: "Python",
     icon: FaPython,
   },
   {
-    name: "Flask",
-    icon: SiFlask,
-  },
-  {
     name: "Django",
     icon: DiDjango,
   },
   {
+    name: "Flask",
+    icon: SiFlask,
+  },
+  {
+    name: "Bootstrap",
+    icon: TbBrandBootstrap,
+  },
+  {
+    name: "Tailwind",
+    icon: BiLogoTailwindCss,
+  },
+  {
     name: "C/C++",
     icon: TbBrandCpp,
-  },
-  {
-    name: "PHP",
-    icon: BiLogoPhp,
-  },
-  {
-    name: "Android",
-    icon: BsAndroid2,
-  },
-  {
-    name: "Java",
-    icon: BiLogoJava,
   },
   {
     name: "C#",
@@ -274,6 +289,10 @@ export const skillsTools = [
   {
     name: "WordPress",
     icon: FaWordpress,
+  },
+  {
+    name: "Drupal",
+    icon: FaDrupal
   },
   {
     name: "Figma",
