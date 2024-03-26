@@ -18,10 +18,11 @@ export default function Footer() {
       bottom: 0,
       left: 0,
       width: "100%",
-      backgroundColor: "#02001E",
+      backgroundColor: "blueTheme.navBg",
       color: "white",
-      padding: "10px 0",
+      padding: "2px 0",
       textAlign: "center",
+      marginTop: "4rem",
     }}>
       <small >
         &copy; 2030 Ricardo. All rights reserved.

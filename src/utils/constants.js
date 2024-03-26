@@ -451,24 +451,24 @@ export const projectsData = [
     description: "Involved in creating a GPT-powered live chat for online customer support, enabling rapid AI training and deployment. My contribution covered backend, frontend, and full-stack engineering skills.",
     languages: "Node.js, React.js, MongoDB",
   },
-  {
-    type: "Micro-app",
-    title: "Task Manager",
-    image: "task-manager-re" ,
-    link: "https://todo-python-flask-app-10d98ce989a3.herokuapp.com/",
-    source: "https://github.com/technicaldifficulties666/flask-todo-app",
-    description: "A task management web application using Python Flask. The app allows users to maintain a to-do list by adding, updating, and deleting tasks. It uses SQLAlcemy for the database",
-    languages: "Python - Flask, HTML, Bootstrap, SQLAlchemy",
-  },
-  {
-    type: "Micro-app",
-    title: "Music Player",
-    image: "music-player",
-    link: "https://technicaldifficulties666.github.io/",
-    source: "https://technicaldifficulties666.github.io/music-player-app.github.io/",
-    description: "A music player application utilizing HTML, CSS, JavaScript and SoundCloud API. The app allows search functionality to browse songs by artist, title, or genre, and playback controls to play or pause music.",
-    languages: "HTML, CSS, JavaScript"
-  },
+  // {
+  //   type: "Micro-app",
+  //   title: "Task Manager",
+  //   image: "task-manager-re" ,
+  //   link: "https://todo-python-flask-app-10d98ce989a3.herokuapp.com/",
+  //   source: "https://github.com/technicaldifficulties666/flask-todo-app",
+  //   description: "A task management web application using Python Flask. The app allows users to maintain a to-do list by adding, updating, and deleting tasks. It uses SQLAlcemy for the database",
+  //   languages: "Python - Flask, HTML, Bootstrap, SQLAlchemy",
+  // },
+  // {
+  //   type: "Micro-app",
+  //   title: "Music Player",
+  //   image: "music-player",
+  //   link: "https://technicaldifficulties666.github.io/",
+  //   source: "https://technicaldifficulties666.github.io/music-player-app.github.io/",
+  //   description: "A music player application utilizing HTML, CSS, JavaScript and SoundCloud API. The app allows search functionality to browse songs by artist, title, or genre, and playback controls to play or pause music.",
+  //   languages: "HTML, CSS, JavaScript"
+  // },
 ];
 
 export const education = [

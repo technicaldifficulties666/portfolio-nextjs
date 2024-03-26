@@ -3,6 +3,7 @@ import React from "react";
 import Script from "next/script";
 import { Providers } from "./Providers";
 import Header from "./Header";
+import Footer from "./Footer";
 import "../styles/main.scss";
 
 const ClientRootLayout = ({ children }) => {

@@ -23,7 +23,7 @@ const Projects = () => {
         ? projectsData
         : projectsData.filter((data) => data.type === value);
     });
-  const options = ["ALL","SaaS", "Micro-app"];
+  const options = ["ALL","SaaS"];
   const { getRootProps, getRadioProps } = useRadioGroup({
     name: "SaaS",
     defaultValue: "ALL",
@@ -39,7 +39,7 @@ const Projects = () => {
         </Heading>
 
         <Flex {...group} w="100%" px="6" py="3" align="center" justify="center">
-          <HStack>
+          {/* <HStack>
             {options.map((value) => {
               const radio = getRadioProps({ value });
               return (
@@ -48,7 +48,7 @@ const Projects = () => {
                 </RadioCard>
               );
             })}
-          </HStack>
+          </HStack> */}
         </Flex>
         <RevealWrapper delay={300}>
           <SimpleGrid
