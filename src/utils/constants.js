@@ -55,6 +55,7 @@ import {
   SiAsana,
   SiVisualstudiocode,
   SiMicrosoftoffice,
+  SiRedux,
 } from "react-icons/si";
 import { AiFillCode } from "react-icons/ai";
 import { FaHashnode, FaGuitar, FaAngular, FaGitlab, FaDrupal } from "react-icons/fa6";
@@ -151,6 +152,10 @@ export const skillsDevelopment = [
     icon: FaReact,
   },
   {
+    name: "Redux",
+    icon: SiRedux,
+  },
+  {
     name: "Angular",
     icon: FaAngular,
   },
@@ -169,10 +174,6 @@ export const skillsDevelopment = [
   {
     name: "Spring Boot",
     icon: BiLogoSpringBoot,
-  },
-  {
-    name: "GraphQL",
-    icon: BiLogoGraphql,
   },
   {
     name: "Ruby on Rails",
@@ -203,8 +204,8 @@ export const skillsDevelopment = [
     icon: TbBrandCpp,
   },
   {
-    name: "C#",
-    icon: TbBrandCSharp,
+    name: "GraphQL",
+    icon: BiLogoGraphql,
   },
 ];
 export const skillsDatabase = [
@@ -347,7 +348,7 @@ export const workData = [
   {
     company: "Fastloop ",
     designation: "Full-Stack Engineer",
-    duration: "May 2023 - Sep 2023 | Vancouver, BC",
+    duration: "May 2023 - Dec 2023 | Vancouver, BC",
     companyImg: "fastloop.png",
     description: (
       <>
