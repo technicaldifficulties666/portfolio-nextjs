@@ -26,7 +26,7 @@ const Education = (props) => {
             <Image
               //objectFit="cover"
               //objectPostion="50% 20%"
-              width="50%"
+              //width="50%"
               src={`/images/${companyImg}`}
               alt="Company Logo"
               marginRight="1rem"
@@ -38,9 +38,6 @@ const Education = (props) => {
             />
             <Box paddingLeft="0.5rem">
               <Heading fontSize="1.5rem">{company}</Heading>
-              <Heading size="sm" my={2}>
-              {duration}
-              </Heading>
               <Text size="xs" my={2} fontStyle="italic">
               {designation}
               </Text>

@@ -326,7 +326,7 @@ export const workData = [
   {
     company: "The Peak Publications Society ",
     designation: "Website Manager",
-    duration: "Sep 2022 - Present | Burnaby, BC",
+    duration: "Sep 2021 - Present | Burnaby, BC",
     companyImg: "peak-re.png",
     description: (
       <>
@@ -348,7 +348,7 @@ export const workData = [
   {
     company: "Fastloop ",
     designation: "Full-Stack Engineer",
-    duration: "May 2023 - Dec 2023 | Vancouver, BC",
+    duration: "May 2023 - present | Vancouver, BC",
     companyImg: "fastloop.png",
     description: (
       <>
@@ -369,8 +369,8 @@ export const workData = [
   },
   {
     company: "Xneelo",
-    designation: "Software Developer",
-    duration: "Jan 2022 - Sep 2022 | Vancouver, BC",
+    designation: "Lead Web Developer",
+    duration: "May 2021 - Aug 2022 | Vancouver, BC",
     companyImg: "xneelo.jpeg",
     description: (
       <>
@@ -393,7 +393,7 @@ export const workData = [
   {
     company: "Vecima Networks",
     designation: "Front End Developer",
-    duration: "Sep 2020 - May 2021 | Burnaby, BC",
+    duration: "Sep 2019 - Dec 2020 | Burnaby, BC",
     companyImg: "vecima_networks_logo.png",
     description: (
       <>
