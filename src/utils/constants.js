@@ -335,8 +335,8 @@ export const workData = [
            Maintained the website of <i>The Peak</i>, Simon Fraser University’s student weekly
           </li>
           <li>
-           Demonstrated proficiency in CMS using WordPress, phpMyAdmin and Linux
-           Ubuntu server for ensuring continuous uptime, recurring backups and timely content upload
+           Demonstrated proficiency in CMS using WordPress, Nginx,
+           Linux and MySQL for ensuring continuous uptime, recurring backups and timely content upload
           </li>
           <li>
            Boosted site performance by 50% with Search engine optimization (SEO), web analytics and real-time security monitoring
@@ -354,7 +354,7 @@ export const workData = [
       <>
         <ul>
           <li>
-           Created a data visualization dashboard using Angular and Node Express stack
+           Created a data visualization dashboard using Next.js and Node Express stack
           </li>
           <li>
            Optimized team productivity through implementation of an in-house Slack app,
@@ -377,7 +377,7 @@ export const workData = [
         <ul>
           <li>
             Aided in developing and maintaining the Managed WordPress Hosting platform,
-            using React TypeScript and Ruby on Rails stack
+            using React TypeScript and Java Spring Boot stack
           </li>
           <li>
             Implemented Test Driven Development (TDD) and DevOps principles, incorporating
@@ -431,8 +431,8 @@ export const projectsData = [
     image: "webability-io",
     link: "https://www.webability.io/",
     source: "",
-    description: "A comprehensive solution focused on web accessibility compliance, ensuring adherence to WCAG and ADA standards. My role spanned across full-stack development, utilizing MongoDB, Node.js, and React.",
-    languages: "Node.js, React.js, MongoDB",
+    description: "A comprehensive solution focused on web accessibility compliance, ensuring adherence to WCAG and ADA standards. My role spanned across full-stack development, utilizing MongoDB, Next.js, and Node Express.",
+    languages: "Node.js, React.js, Next.js, MySQL, MongoDB",
   },
   {
     type: "SaaS",
